@@ -29,8 +29,8 @@ namespace FormPembayaran
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.Label Judul;
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -40,12 +40,31 @@ namespace FormPembayaran
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tanggal = new System.Windows.Forms.Label();
+            this.jam = new System.Windows.Forms.Label();
+            this.mataPelajaran = new System.Windows.Forms.Label();
+            this.tingkatPendidikan = new System.Windows.Forms.Label();
+            this.tutor = new System.Windows.Forms.Label();
+            this.durasi = new System.Windows.Forms.Label();
+            this.biayaPerJam = new System.Windows.Forms.Label();
+            this.totalPembayaran = new System.Windows.Forms.Label();
+            Judul = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // Judul
+            // 
+            Judul.AutoSize = true;
+            Judul.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            Judul.Location = new System.Drawing.Point(159, 27);
+            Judul.Name = "Judul";
+            Judul.Size = new System.Drawing.Size(217, 24);
+            Judul.TabIndex = 3;
+            Judul.Text = "FORM PEMBAYARAN";
+            Judul.Click += new System.EventHandler(this.Judul_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(631, 387);
+            this.button1.Location = new System.Drawing.Point(398, 380);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -53,26 +72,15 @@ namespace FormPembayaran
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(236, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(304, 31);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "FORM PEMBAYARAN";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(61, 74);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 18);
+            this.label2.Size = new System.Drawing.Size(143, 18);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Detail Pembelajaran";
+            this.label2.Text = "Detail Pembelajaran:";
             // 
             // label3
             // 
@@ -155,19 +163,117 @@ namespace FormPembayaran
             this.label10.TabIndex = 12;
             this.label10.Text = "Total Pembayaran";
             // 
-            // textBox1
+            // tanggal
             // 
-            this.textBox1.Location = new System.Drawing.Point(208, 103);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 13;
+            this.tanggal.AutoSize = true;
+            this.tanggal.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.tanggal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tanggal.Location = new System.Drawing.Point(223, 110);
+            this.tanggal.MinimumSize = new System.Drawing.Size(250, 20);
+            this.tanggal.Name = "tanggal";
+            this.tanggal.Size = new System.Drawing.Size(250, 20);
+            this.tanggal.TabIndex = 13;
+            this.tanggal.Text = "-";
+            this.tanggal.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // jam
+            // 
+            this.jam.AutoSize = true;
+            this.jam.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.jam.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.jam.Location = new System.Drawing.Point(223, 141);
+            this.jam.MinimumSize = new System.Drawing.Size(250, 20);
+            this.jam.Name = "jam";
+            this.jam.Size = new System.Drawing.Size(250, 20);
+            this.jam.TabIndex = 14;
+            this.jam.Text = "-";
+            // 
+            // mataPelajaran
+            // 
+            this.mataPelajaran.AutoSize = true;
+            this.mataPelajaran.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.mataPelajaran.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mataPelajaran.Location = new System.Drawing.Point(223, 170);
+            this.mataPelajaran.MinimumSize = new System.Drawing.Size(250, 20);
+            this.mataPelajaran.Name = "mataPelajaran";
+            this.mataPelajaran.Size = new System.Drawing.Size(250, 20);
+            this.mataPelajaran.TabIndex = 15;
+            this.mataPelajaran.Text = "-";
+            // 
+            // tingkatPendidikan
+            // 
+            this.tingkatPendidikan.AutoSize = true;
+            this.tingkatPendidikan.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.tingkatPendidikan.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tingkatPendidikan.Location = new System.Drawing.Point(223, 199);
+            this.tingkatPendidikan.MinimumSize = new System.Drawing.Size(250, 20);
+            this.tingkatPendidikan.Name = "tingkatPendidikan";
+            this.tingkatPendidikan.Size = new System.Drawing.Size(250, 20);
+            this.tingkatPendidikan.TabIndex = 16;
+            this.tingkatPendidikan.Text = "-";
+            // 
+            // tutor
+            // 
+            this.tutor.AutoSize = true;
+            this.tutor.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.tutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tutor.Location = new System.Drawing.Point(223, 228);
+            this.tutor.MinimumSize = new System.Drawing.Size(250, 20);
+            this.tutor.Name = "tutor";
+            this.tutor.Size = new System.Drawing.Size(250, 20);
+            this.tutor.TabIndex = 17;
+            this.tutor.Text = "-";
+            // 
+            // durasi
+            // 
+            this.durasi.AutoSize = true;
+            this.durasi.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.durasi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.durasi.Location = new System.Drawing.Point(223, 257);
+            this.durasi.MinimumSize = new System.Drawing.Size(250, 20);
+            this.durasi.Name = "durasi";
+            this.durasi.Size = new System.Drawing.Size(250, 20);
+            this.durasi.TabIndex = 18;
+            this.durasi.Text = "-";
+            // 
+            // biayaPerJam
+            // 
+            this.biayaPerJam.AutoSize = true;
+            this.biayaPerJam.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.biayaPerJam.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.biayaPerJam.Location = new System.Drawing.Point(223, 286);
+            this.biayaPerJam.MinimumSize = new System.Drawing.Size(250, 20);
+            this.biayaPerJam.Name = "biayaPerJam";
+            this.biayaPerJam.Size = new System.Drawing.Size(250, 20);
+            this.biayaPerJam.TabIndex = 19;
+            this.biayaPerJam.Text = "-";
+            // 
+            // totalPembayaran
+            // 
+            this.totalPembayaran.AutoSize = true;
+            this.totalPembayaran.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.totalPembayaran.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.totalPembayaran.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalPembayaran.Location = new System.Drawing.Point(223, 315);
+            this.totalPembayaran.MinimumSize = new System.Drawing.Size(250, 20);
+            this.totalPembayaran.Name = "totalPembayaran";
+            this.totalPembayaran.Size = new System.Drawing.Size(250, 20);
+            this.totalPembayaran.TabIndex = 20;
+            this.totalPembayaran.Text = "Rp 0,00";
             // 
             // FormPembayaran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(534, 450);
+            this.Controls.Add(this.totalPembayaran);
+            this.Controls.Add(this.biayaPerJam);
+            this.Controls.Add(this.durasi);
+            this.Controls.Add(this.tutor);
+            this.Controls.Add(this.tingkatPendidikan);
+            this.Controls.Add(this.mataPelajaran);
+            this.Controls.Add(this.jam);
+            this.Controls.Add(this.tanggal);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -177,10 +283,10 @@ namespace FormPembayaran
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(Judul);
             this.Controls.Add(this.button1);
             this.Name = "FormPembayaran";
-            this.Text = "Biaya per jam";
+            this.Text = "Form Pembayaran";
             this.Load += new System.EventHandler(this.FormPembayaran_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -189,7 +295,6 @@ namespace FormPembayaran
 
         #endregion
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -199,7 +304,14 @@ namespace FormPembayaran
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label tanggal;
+        private System.Windows.Forms.Label jam;
+        private System.Windows.Forms.Label mataPelajaran;
+        private System.Windows.Forms.Label tingkatPendidikan;
+        private System.Windows.Forms.Label tutor;
+        private System.Windows.Forms.Label durasi;
+        private System.Windows.Forms.Label biayaPerJam;
+        private System.Windows.Forms.Label totalPembayaran;
     }
 }
 

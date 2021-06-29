@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="msgSukses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="msgSukses.Designer.cs">
+      <DependentUpon>msgSukses.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPembayaran.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormPembayaran.Designer.cs">
       <DependentUpon>FormPembayaran.cs</DependentUpon>
     </Compile>
+    <Compile Include="msgBayar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="msgBayar.Designer.cs">
+      <DependentUpon>msgBayar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormPembayaran.resx">
       <DependentUpon>FormPembayaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="msgBayar.resx">
+      <DependentUpon>msgBayar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="msgSukses.resx">
+      <DependentUpon>msgSukses.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

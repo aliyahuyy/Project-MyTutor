@@ -8,3 +8,5 @@ D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.cspr
 D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.csproj.CoreCompileInputs.cache
 D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.exe
 D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.pdb
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.msgBayar.resources
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.msgSukses.resources
