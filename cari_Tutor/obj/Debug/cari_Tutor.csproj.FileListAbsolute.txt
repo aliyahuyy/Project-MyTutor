@@ -1,0 +1,10 @@
+C:\Users\Avita\Documents\GitHub\Project-MyTutor\Cari_tutor\bin\Debug\cari_Tutor.exe.config
+C:\Users\Avita\Documents\GitHub\Project-MyTutor\Cari_tutor\bin\Debug\cari_Tutor.exe
+C:\Users\Avita\Documents\GitHub\Project-MyTutor\Cari_tutor\bin\Debug\cari_Tutor.pdb
+C:\Users\Avita\Documents\GitHub\Project-MyTutor\Cari_tutor\obj\Debug\cari_Tutor.csprojAssemblyReference.cache
+C:\Users\Avita\Documents\GitHub\Project-MyTutor\Cari_tutor\obj\Debug\cari_Tutor.Form1.resources
+C:\Users\Avita\Documents\GitHub\Project-MyTutor\Cari_tutor\obj\Debug\cari_Tutor.Properties.Resources.resources
+C:\Users\Avita\Documents\GitHub\Project-MyTutor\Cari_tutor\obj\Debug\cari_Tutor.csproj.GenerateResource.cache
+C:\Users\Avita\Documents\GitHub\Project-MyTutor\Cari_tutor\obj\Debug\cari_Tutor.csproj.CoreCompileInputs.cache
+C:\Users\Avita\Documents\GitHub\Project-MyTutor\Cari_tutor\obj\Debug\cari_Tutor.exe
+C:\Users\Avita\Documents\GitHub\Project-MyTutor\Cari_tutor\obj\Debug\cari_Tutor.pdb
