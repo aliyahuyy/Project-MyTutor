@@ -31,5 +31,33 @@ namespace Login
         {
 
         }
+
+        private void button_Login_Click(object sender, EventArgs e)
+        {
+            if(textUName.Text.Trim() == string.Empty)
+            {
+                MessageBox.Show("Username tidak boleh kosong!");
+                textUName.Clear();
+                textPass.Clear();
+            } else if(textPass.Text.Trim() == string.Empty)
+            {
+                MessageBox.Show("password tidak boleh kosong! ");
+                textUName.Clear();
+                textPass.Clear();
+            }
+            else
+            {
+                MessageBox.Show("Login berhasil!");
+                //Next Form.
+                /* new form().show();
+                 this.hide*/
+            }
+        }
+
+        private void button_for_SignUp_Click(object sender, EventArgs e)
+        {
+            //new Form().Show();
+            this.Hide();
+        }
     }
 }
