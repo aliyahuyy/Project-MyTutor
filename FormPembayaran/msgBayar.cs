@@ -12,10 +12,10 @@ namespace FormPembayaran
 {
     public partial class msgBayar : Form
     {
-        public msgBayar()
+        public msgBayar(string inTotalBayar)
         {
-            
             InitializeComponent();
+            totalPembayaran.Text = inTotalBayar;
             this.Hide();
         }
 

@@ -29,68 +29,17 @@ namespace History
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.TanggalColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TutorColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MataPelajaranColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TingkatPendidikanColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DurasiColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HargaColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.StatusColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bayarBtn = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.StatusColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HargaColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DurasiColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TingkatPendidikanColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MataPelajaranColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TutorColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TanggalColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabelHistory = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.tabelHistory)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.TanggalColumn,
-            this.TutorColumn,
-            this.MataPelajaranColumn,
-            this.TingkatPendidikanColumn,
-            this.DurasiColumn,
-            this.HargaColumn,
-            this.StatusColumn});
-            this.dataGridView1.Location = new System.Drawing.Point(48, 54);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(705, 280);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // TanggalColumn
-            // 
-            this.TanggalColumn.HeaderText = "Tanggal";
-            this.TanggalColumn.Name = "TanggalColumn";
-            // 
-            // TutorColumn
-            // 
-            this.TutorColumn.HeaderText = "Tutor";
-            this.TutorColumn.Name = "TutorColumn";
-            // 
-            // MataPelajaranColumn
-            // 
-            this.MataPelajaranColumn.HeaderText = "Mata Pelajaran";
-            this.MataPelajaranColumn.Name = "MataPelajaranColumn";
-            // 
-            // TingkatPendidikanColumn
-            // 
-            this.TingkatPendidikanColumn.HeaderText = "Tingkat Pendidikan";
-            this.TingkatPendidikanColumn.Name = "TingkatPendidikanColumn";
-            // 
-            // DurasiColumn
-            // 
-            this.DurasiColumn.HeaderText = "Durasi";
-            this.DurasiColumn.Name = "DurasiColumn";
-            // 
-            // HargaColumn
-            // 
-            this.HargaColumn.HeaderText = "Harga";
-            this.HargaColumn.Name = "HargaColumn";
-            // 
-            // StatusColumn
-            // 
-            this.StatusColumn.HeaderText = "Status";
-            this.StatusColumn.Name = "StatusColumn";
             // 
             // bayarBtn
             // 
@@ -102,31 +51,86 @@ namespace History
             this.bayarBtn.UseVisualStyleBackColor = true;
             this.bayarBtn.Click += new System.EventHandler(this.button1_Click);
             // 
+            // StatusColumn
+            // 
+            this.StatusColumn.HeaderText = "Status";
+            this.StatusColumn.Name = "StatusColumn";
+            // 
+            // HargaColumn
+            // 
+            this.HargaColumn.HeaderText = "Harga";
+            this.HargaColumn.Name = "HargaColumn";
+            // 
+            // DurasiColumn
+            // 
+            this.DurasiColumn.HeaderText = "Durasi";
+            this.DurasiColumn.Name = "DurasiColumn";
+            // 
+            // TingkatPendidikanColumn
+            // 
+            this.TingkatPendidikanColumn.HeaderText = "Tingkat Pendidikan";
+            this.TingkatPendidikanColumn.Name = "TingkatPendidikanColumn";
+            // 
+            // MataPelajaranColumn
+            // 
+            this.MataPelajaranColumn.HeaderText = "Mata Pelajaran";
+            this.MataPelajaranColumn.Name = "MataPelajaranColumn";
+            // 
+            // TutorColumn
+            // 
+            this.TutorColumn.HeaderText = "Tutor";
+            this.TutorColumn.Name = "TutorColumn";
+            // 
+            // TanggalColumn
+            // 
+            this.TanggalColumn.HeaderText = "Tanggal";
+            this.TanggalColumn.Name = "TanggalColumn";
+            // 
+            // tabelHistory
+            // 
+            this.tabelHistory.AllowUserToAddRows = false;
+            this.tabelHistory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tabelHistory.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.TanggalColumn,
+            this.TutorColumn,
+            this.MataPelajaranColumn,
+            this.TingkatPendidikanColumn,
+            this.DurasiColumn,
+            this.HargaColumn,
+            this.StatusColumn});
+            this.tabelHistory.Location = new System.Drawing.Point(37, 41);
+            this.tabelHistory.Name = "tabelHistory";
+            this.tabelHistory.ReadOnly = true;
+            this.tabelHistory.Size = new System.Drawing.Size(705, 280);
+            this.tabelHistory.TabIndex = 0;
+            this.tabelHistory.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.tabelHistory.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(784, 411);
             this.Controls.Add(this.bayarBtn);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.tabelHistory);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.tabelHistory)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TanggalColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TutorColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MataPelajaranColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TingkatPendidikanColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DurasiColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn HargaColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn StatusColumn;
         private System.Windows.Forms.Button bayarBtn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn StatusColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HargaColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DurasiColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TingkatPendidikanColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MataPelajaranColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TutorColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TanggalColumn;
+        private System.Windows.Forms.DataGridView tabelHistory;
     }
 }
 

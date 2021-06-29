@@ -15,8 +15,7 @@ namespace FormPembayaran
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPembayaran());
+            Application.SetCompatibleTextRenderingDefault(false);     
         }
     }
 }

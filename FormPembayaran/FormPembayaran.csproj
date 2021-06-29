@@ -52,11 +52,11 @@
     <Compile Include="msgSukses.Designer.cs">
       <DependentUpon>msgSukses.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPembayaran.cs">
+    <Compile Include="formPembayaran.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPembayaran.Designer.cs">
-      <DependentUpon>FormPembayaran.cs</DependentUpon>
+    <Compile Include="formPembayaran.Designer.cs">
+      <DependentUpon>formPembayaran.cs</DependentUpon>
     </Compile>
     <Compile Include="msgBayar.cs">
       <SubType>Form</SubType>
@@ -66,8 +66,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormPembayaran.resx">
-      <DependentUpon>FormPembayaran.cs</DependentUpon>
+    <EmbeddedResource Include="formPembayaran.resx">
+      <DependentUpon>formPembayaran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="msgBayar.resx">
       <DependentUpon>msgBayar.cs</DependentUpon>

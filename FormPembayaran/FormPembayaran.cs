@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace FormPembayaran
 {
-    public partial class FormPembayaran : Form
+    public partial class formPembayaran : Form
     {
 
-        public FormPembayaran()
+        public formPembayaran(string inTanggal, string inJam, string inMataPelajaran, string inTingkatPendidikan,
+            string inTutor, string inDurasi, string inBiayaPJam, string inTotalPembayaran)
         {
             InitializeComponent();
-            tanggal.Text = "isi";
-            jam.Text = "isi";
-            mataPelajaran.Text = "isi";
-            tingkatPendidikan.Text = "isi";
-            tutor.Text = "isi";
-            durasi.Text = "isi";
-            biayaPerJam.Text = "isi";
-            totalPembayaran.Text = "isi";
-      
+            tanggal.Text = inTanggal;
+            jam.Text = inJam;
+            mataPelajaran.Text = inMataPelajaran;
+            tingkatPendidikan.Text = inTingkatPendidikan;
+            tutor.Text = inTutor;
+            durasi.Text = inDurasi;
+            biayaPerJam.Text = inBiayaPJam;
+            totalPembayaran.Text = inTotalPembayaran;
         }
 
         private void FormPembayaran_Load(object sender, EventArgs e)
@@ -34,9 +34,10 @@ namespace FormPembayaran
 
         private void button1_Click(object sender, EventArgs e)
         {
-            msgBayar m = new msgBayar();
+            msgBayar m = new msgBayar(totalPembayaran.Text);
+            this.Hide();
             m.ShowDialog();
-            this.Close();   
+            this.Close();
         }
 
    

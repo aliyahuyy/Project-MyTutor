@@ -1,0 +1,10 @@
+D:\Aqila\Konstruksi\Project-MyTutor\setUP_main\bin\Debug\setUP_main.exe.config
+D:\Aqila\Konstruksi\Project-MyTutor\setUP_main\bin\Debug\setUP_main.exe
+D:\Aqila\Konstruksi\Project-MyTutor\setUP_main\bin\Debug\setUP_main.pdb
+D:\Aqila\Konstruksi\Project-MyTutor\setUP_main\obj\Debug\setUP_main.csprojAssemblyReference.cache
+D:\Aqila\Konstruksi\Project-MyTutor\setUP_main\obj\Debug\setUP_main.Form1.resources
+D:\Aqila\Konstruksi\Project-MyTutor\setUP_main\obj\Debug\setUP_main.Properties.Resources.resources
+D:\Aqila\Konstruksi\Project-MyTutor\setUP_main\obj\Debug\setUP_main.csproj.GenerateResource.cache
+D:\Aqila\Konstruksi\Project-MyTutor\setUP_main\obj\Debug\setUP_main.csproj.CoreCompileInputs.cache
+D:\Aqila\Konstruksi\Project-MyTutor\setUP_main\obj\Debug\setUP_main.exe
+D:\Aqila\Konstruksi\Project-MyTutor\setUP_main\obj\Debug\setUP_main.pdb
