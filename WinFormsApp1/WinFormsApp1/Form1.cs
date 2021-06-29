@@ -38,7 +38,14 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Form telah disubmit , silahkan menunggu konfirmasi tutor!","Tunggu" ,MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if((textBox4.Text == "") || (Total.Text == ""))
+            {
+                MessageBox.Show("maaf data belum lengkap");
+            }else
+            {
+                MessageBox.Show("Form telah disubmit , silahkan menunggu konfirmasi tutor!", "Tunggu", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Close();
+            }
         }
 
         private void Total_TextChanged(object sender, EventArgs e)

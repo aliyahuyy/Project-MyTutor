@@ -12,9 +12,9 @@ namespace WinFormsApp1
         {
             Cash , Mandiri , BCA , BRI
         }
-        public static String GetMetode(Metode_bayar metode)
+        public static int GetMetode(Metode_bayar metode)
         {
-            String[] urutan = {"cash" , "mandiri" , "bca" , "bri"};
+            int[] urutan = {1 , 2 ,3 , 4};
             return urutan[(int)metode];
         }
     }
