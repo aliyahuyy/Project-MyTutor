@@ -66,6 +66,7 @@ namespace Sign_Up
             } else
             {
                 MessageBox.Show("Pendaftaran Berhasil!");
+                //Next ke form selanjutnya.
             }
 
             Data data = new Data();
@@ -76,6 +77,7 @@ namespace Sign_Up
             string json = JsonConvert.SerializeObject(data, Formatting.Indented);
 
             File.WriteAllText("C:/Users/computer/Documents/Kuliah Alya/Project-MyTutor/Sign Up/Sign Up/DATA.json", json);
+            
         }
     }
 }
