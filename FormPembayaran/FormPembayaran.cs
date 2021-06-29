@@ -36,7 +36,7 @@ namespace FormPembayaran
         {
             msgBayar m = new msgBayar();
             m.ShowDialog();
-            this.Close();
+            this.Close();   
         }
 
    

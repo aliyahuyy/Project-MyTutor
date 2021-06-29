@@ -1,0 +1,10 @@
+D:\Aqila\Konstruksi\Project-MyTutor\History\obj\Debug\History.Form1.resources
+D:\Aqila\Konstruksi\Project-MyTutor\History\obj\Debug\History.Properties.Resources.resources
+D:\Aqila\Konstruksi\Project-MyTutor\History\obj\Debug\History.csproj.GenerateResource.cache
+D:\Aqila\Konstruksi\Project-MyTutor\History\obj\Debug\History.csproj.CoreCompileInputs.cache
+D:\Aqila\Konstruksi\Project-MyTutor\History\bin\Debug\History.exe.config
+D:\Aqila\Konstruksi\Project-MyTutor\History\bin\Debug\History.exe
+D:\Aqila\Konstruksi\Project-MyTutor\History\bin\Debug\History.pdb
+D:\Aqila\Konstruksi\Project-MyTutor\History\obj\Debug\History.exe
+D:\Aqila\Konstruksi\Project-MyTutor\History\obj\Debug\History.pdb
+D:\Aqila\Konstruksi\Project-MyTutor\History\obj\Debug\History.csprojAssemblyReference.cache
