@@ -15,13 +15,18 @@ namespace Profile_mytutor
         public Form1()
         {
             InitializeComponent();
-            InitializeCombobox();
+            InitializeTextbox();
         }
 
-        private void InitializeCombobox()
+        private void InitializeTextbox()
         {
-            comboBox1.Items.AddRange(Enum.GetNames(typeof(status.status_profil)));
-            comboBox1.SelectedIndex = 1;
+           foreach(String usr in Enum.GetNames(typeof(akun.username)))
+            {
+                textBox1.Text = akun.Getnama(usr);
+                textBox3.Text = akun.GetEmail(usr);
+                textBox4.Text = akun.GetPass(usr);
+                textBox5.Text = akun.GetStatus(usr);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,13 +41,7 @@ namespace Profile_mytutor
             textBox1.Enabled = true;
             textBox2.Enabled = true;
             textBox3.Enabled = true;
-            comboBox1.Enabled = true;
             save.Enabled = true;
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-           
         }
 
         private void save_Click(object sender, EventArgs e)
@@ -60,7 +59,6 @@ namespace Profile_mytutor
                     textBox1.Enabled = false;
                     textBox2.Enabled = false;
                     textBox3.Enabled = false;
-                    comboBox1.Enabled = false;
                     save.Enabled = false;
                 }
             }
