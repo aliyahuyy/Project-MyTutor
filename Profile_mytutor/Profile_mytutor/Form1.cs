@@ -20,7 +20,9 @@ namespace Profile_mytutor
 
         private void InitializeTextbox()
         {
-           foreach(String usr in Enum.GetNames(typeof(akun.username)))
+            
+            String usr = Enum.GetNames(typeof(akun.username)).ToString();
+            if (textBox2.Text == usr)
             {
                 textBox1.Text = akun.Getnama(usr);
                 textBox3.Text = akun.GetEmail(usr);
