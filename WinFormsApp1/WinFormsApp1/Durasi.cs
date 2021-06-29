@@ -12,9 +12,9 @@ namespace WinFormsApp1
         {
             Satu  , Dua , Tiga
         }
-        public static int Getdurasi(Durasi_pem durasi)
+        public static string Getdurasi(Durasi_pem durasi)
         {
-            int[] angka = { 1, 2, 3 };
+            string[] angka = {"satu","dua","tiga"};
             return angka[(int)durasi];
         }
     }

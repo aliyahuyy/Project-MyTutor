@@ -22,7 +22,6 @@ namespace WinFormsApp1
         private void InitializeComboBox1()
         {
             comboBox2.Items.AddRange(Enum.GetNames(typeof(Metode.Metode_bayar)));
-            comboBox2.SelectedIndex = (int)Metode.Metode_bayar.Bank;
         }
 
         private void InitializeComboBox()

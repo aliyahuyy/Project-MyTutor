@@ -10,11 +10,11 @@ namespace WinFormsApp1
     {
         public enum Metode_bayar
         {
-            Cash , Bank
+            Cash , Mandiri , BCA , BRI
         }
-        public static int GetMetode(Metode_bayar metode)
+        public static String GetMetode(Metode_bayar metode)
         {
-            int[] urutan = { 1, 2 };
+            String[] urutan = {"cash" , "mandiri" , "bca" , "bri"};
             return urutan[(int)metode];
         }
     }
