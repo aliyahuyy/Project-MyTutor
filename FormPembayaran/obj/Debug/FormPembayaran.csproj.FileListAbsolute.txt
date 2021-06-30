@@ -1,0 +1,12 @@
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\bin\Debug\FormPembayaran.exe.config
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\bin\Debug\FormPembayaran.exe
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\bin\Debug\FormPembayaran.pdb
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.csprojAssemblyReference.cache
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.FormPembayaran.resources
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.Properties.Resources.resources
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.csproj.GenerateResource.cache
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.csproj.CoreCompileInputs.cache
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.exe
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.pdb
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.msgBayar.resources
+D:\Aqila\Konstruksi\Project-MyTutor\FormPembayaran\obj\Debug\FormPembayaran.msgSukses.resources
