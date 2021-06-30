@@ -1,0 +1,20 @@
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\bin\Debug\net5.0-windows\Sign Up.exe
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\bin\Debug\net5.0-windows\Sign Up.deps.json
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\bin\Debug\net5.0-windows\Sign Up.runtimeconfig.json
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\bin\Debug\net5.0-windows\Sign Up.runtimeconfig.dev.json
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\bin\Debug\net5.0-windows\Sign Up.dll
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\bin\Debug\net5.0-windows\ref\Sign Up.dll
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\bin\Debug\net5.0-windows\Sign Up.pdb
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\obj\Debug\net5.0-windows\Sign Up.csproj.AssemblyReference.cache
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\obj\Debug\net5.0-windows\Sign_Up.Form1.resources
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\obj\Debug\net5.0-windows\Sign Up.csproj.GenerateResource.cache
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\obj\Debug\net5.0-windows\Sign Up.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\obj\Debug\net5.0-windows\Sign Up.AssemblyInfoInputs.cache
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\obj\Debug\net5.0-windows\Sign Up.AssemblyInfo.cs
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\obj\Debug\net5.0-windows\Sign Up.csproj.CoreCompileInputs.cache
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\obj\Debug\net5.0-windows\Sign Up.csproj.CopyComplete
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\obj\Debug\net5.0-windows\Sign Up.dll
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\obj\Debug\net5.0-windows\ref\Sign Up.dll
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\obj\Debug\net5.0-windows\Sign Up.pdb
+C:\Users\computer\Documents\Kuliah Alya\Project-MyTutor\Sign Up\Sign Up\obj\Debug\net5.0-windows\Sign Up.genruntimeconfig.cache
