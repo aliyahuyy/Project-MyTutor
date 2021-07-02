@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form_pertemuan", "Form_pertemuan\Form_pertemuan.csproj", "{1BF02622-68AC-4318-A97B-C095A26CE07F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{D66AF579-CF20-444C-A22E-AD44553ABE9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BF02622-68AC-4318-A97B-C095A26CE07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF02622-68AC-4318-A97B-C095A26CE07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF02622-68AC-4318-A97B-C095A26CE07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF02622-68AC-4318-A97B-C095A26CE07F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66AF579-CF20-444C-A22E-AD44553ABE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66AF579-CF20-444C-A22E-AD44553ABE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66AF579-CF20-444C-A22E-AD44553ABE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66AF579-CF20-444C-A22E-AD44553ABE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9AC9B2D-9B55-47EC-A2A2-2C36EC9ED46E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+C:\Users\Asus\Documents\GitHub\Project-MyTutor\Form_pertemuan\Form_pertemuan\bin\Debug\Form_pertemuan.exe.config
+C:\Users\Asus\Documents\GitHub\Project-MyTutor\Form_pertemuan\Form_pertemuan\bin\Debug\Form_pertemuan.exe
+C:\Users\Asus\Documents\GitHub\Project-MyTutor\Form_pertemuan\Form_pertemuan\bin\Debug\Form_pertemuan.pdb
+C:\Users\Asus\Documents\GitHub\Project-MyTutor\Form_pertemuan\Form_pertemuan\obj\Debug\Form_pertemuan.csprojAssemblyReference.cache
+C:\Users\Asus\Documents\GitHub\Project-MyTutor\Form_pertemuan\Form_pertemuan\obj\Debug\Form_pertemuan.Form1.resources
+C:\Users\Asus\Documents\GitHub\Project-MyTutor\Form_pertemuan\Form_pertemuan\obj\Debug\Form_pertemuan.Properties.Resources.resources
+C:\Users\Asus\Documents\GitHub\Project-MyTutor\Form_pertemuan\Form_pertemuan\obj\Debug\Form_pertemuan.csproj.GenerateResource.cache
+C:\Users\Asus\Documents\GitHub\Project-MyTutor\Form_pertemuan\Form_pertemuan\obj\Debug\Form_pertemuan.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\GitHub\Project-MyTutor\Form_pertemuan\Form_pertemuan\obj\Debug\Form_pertemuan.exe
+C:\Users\Asus\Documents\GitHub\Project-MyTutor\Form_pertemuan\Form_pertemuan\obj\Debug\Form_pertemuan.pdb
