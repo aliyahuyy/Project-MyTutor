@@ -18,21 +18,48 @@ namespace cari_Tutor
             
             foreach (string name_ in Enum.GetNames(typeof(Daftar_Tutor.Nama_tutor)))
             {
-                tb_daftar_tutor.Rows.Add(name_, Daftar_Tutor.GetMapel(name_), Daftar_Tutor.GetTingPed(name_),
+                Tb_Daftar_tutor.Rows.Add(name_, Daftar_Tutor.GetMapel(name_), Daftar_Tutor.GetTingPed(name_),
                     Daftar_Tutor.GetHarga(name_), Daftar_Tutor.GetKota(name_));
- 
+                
+            }
+            for (int i = 0; i < Daftar_Tutor.Mapel_List_Public.Count; i++)
+            {
+                Cbx_Mapel.Items.Add(Daftar_Tutor.Mapel_List_Public[i]);
             }
             
+            for (int i = 0; i < Daftar_Tutor.Tingped_List_Public.Count; i++)
+            {
+                Cbx_Tingped.Items.Add(Daftar_Tutor.Tingped_List_Public[i]);
+            }
+            
+            for (int i = 0; i < Daftar_Tutor.Kota_List_Public.Count; i++)
+            {
+                Cbx_Kota.Items.Add(Daftar_Tutor.Kota_List_Public[i]);
+            }
+
+            Btn_TambahMeet.Enabled = false;
+            Btn_Cari_tutor.Enabled = false;
         }
 
-        private void tb_daftar_tutor_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            if (tb_daftar_tutor.CurrentRow.Selected == true)
+            MessageBox.Show("Maaf tutor tidak tersedia");
+        }
+
+        private void tb_daftar_tutor_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if(e.Clicks == 1)
             {
-                button1.Enabled = true;
+                Btn_TambahMeet.Enabled = true;
             }
-            else { button1.Enabled = false; }
-            
+        }
+
+        private void comboBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Clicks == 1)
+            {
+                Btn_Cari_tutor.Enabled = true;
+            }
         }
     }
 }

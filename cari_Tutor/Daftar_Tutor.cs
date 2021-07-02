@@ -6,8 +6,31 @@ using System.Threading.Tasks;
 
 namespace cari_Tutor
 {
-    class Daftar_Tutor
+    public class Daftar_Tutor
     {
+        
+        private static List<string> Mapel_List = new List<string>()
+        {
+            "Matematika", "IPA", "IPS", "Bahasa Jerman",
+            "Bahasa Indonesia", "Bahasa Inggris", "Biologi",
+            "Fisika", "Matematika", "PKN", "Seni"
+        };
+
+        private static List<string> Tingped_List = new List<string>()
+        {
+            "SD", "SMA", "SMP", "SMA KELAS 10",
+            "SD KELAS 5 & 6", "SMP KELAS 8", "SMA KELAS 12"
+        };
+
+        private static List<string> Kota_List = new List<string>()
+        {
+            "Bandung", "Jakarta", "Bogor", "Solo", "Jogja"
+        };
+
+        public static List<string> Mapel_List_Public = Mapel_List;
+        public static List<string> Tingped_List_Public = Tingped_List;
+        public static List<string> Kota_List_Public = Kota_List;
+
         public enum Nama_tutor
         {
             Adam_Husaain, Mellanie_Rodrico, Siti_Rohimah,
